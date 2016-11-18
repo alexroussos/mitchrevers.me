@@ -6,4 +6,5 @@ body {
 
 .cover {
 	background-size: cover;
+	background-image: url("bridge.jpg");
 }
