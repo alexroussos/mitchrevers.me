@@ -1,10 +1,82 @@
 body {
 	margin: 0;
  	padding: 0;
+ 	color: white;
    	font-family: 'Roboto Condensed', sans-serif;
+    background: black;
+}
+
+body ul { 
+    list-style-type: none;
 }
 
 .cover {
-	background-size: cover;
-	background-image: url("mars.jpg");
+	background: url("img/mars.jpg") no-repeat;
+    background-size: cover;
+}
+
+.gradient {
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0, #000 67%);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav a {
+    padding: 10px;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.nav li {
+    padding: 20px 10px;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 120px 0;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.links li {
+    font-size: 12px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.footer ul li {
+    padding: 10px;
+}
+
+.footer .fa-terminal {
+    padding: 10px;
 }
