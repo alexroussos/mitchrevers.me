@@ -4,6 +4,7 @@ body {
  	color: white;
    	font-family: 'Roboto Condensed', sans-serif;
     background: black;
+    height: 100%;
 }
 
 body ul { 
@@ -17,6 +18,8 @@ body ul {
 
 .gradient {
     background: linear-gradient(to bottom, rgba(0,0,0,0) 0, #000 67%);
+    display: flex;
+    flex-direction: column;
 }
 
 .nav {
@@ -47,7 +50,9 @@ body ul {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 120px 0;
+    height: 300px;
+    padding: 100px 20px;
+    text-align: center;
 }
 
 .links {
