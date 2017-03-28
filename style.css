@@ -3,46 +3,56 @@ body {
 }
 
 .banner {
-  padding: 40px 15px;
   text-align: center;
-	background: lightblue;
-	padding: 140px 0;
+	padding-top: 80px;
+	background: linear-gradient(transparent, #fff) left repeat;
 }
 
-.profile-pic {
+.portrait {
 	height: 160px;
-	border-radius:50%;
-	border: 8px solid white;
+	border-radius: 50%;
+	border: 2px solid #000;
 }
 
-.project-cell {
-	text-align: center;
-}
-
-.project-thumbnail {
+.thumbnailWrapper {
+	display: inline-block;
+	width: 240px;
+	height: 240px;
+	border: 2px #000 solid;
 	margin-top: 80px;
-	text-decoration: none;
-	width:240px;
-	height:240px;
-	border: 1px solid lightgrey;
+	border-radius: 20px;
 }
 
-.project-title {
+.thumbnailWrapper img {
+	opacity: 1;
+	transition: all 0.4s ease-in-out;
+	border-radius: 20px;
+	height:100%;
+	width:100%;
+}
+
+.thumbnailWrapper:hover img {
+	opacity: 0.4;
+}
+
+.projectName {
 	position: absolute;
 	left: 0;
 	right: 0;
 	top: 188px;
 }
 
-.bla {
-	display: inline-block;
-}
-
-.bla .project-title {
+.thumbnailWrapper .projectName {
 	opacity: 0;
-	transition: all 0.2s ease-in-out;
+	transition: all 0.4s ease-in-out;
 }
 
-.bla:hover .project-title {
+.thumbnailWrapper:hover .projectName {
 	opacity: 1;
+}
+
+.thumbnailContainer {
+	padding-bottom: 80px;
+	font-size: 16px;
+	text-align: center;
 }
