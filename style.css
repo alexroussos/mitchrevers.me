@@ -1,90 +1,48 @@
-html, body {
-    height: 100%;
-}
-
 body {
-	margin: 0;
- 	padding: 0;
- 	color: white;
-   	font-family: 'Roboto Condensed', sans-serif;
-    background: black;
-}
-
-body ul { 
-    list-style-type: none;
-}
-
-.cover {
-	background: url("img/mars.jpg") no-repeat;
-    background-size: cover;
-    min-height: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
-.cover > div {
-  flex: 1;
-}
-
-.nav {
-    display: flex;
-    justify-content: space-between;
-}
-
-.nav a {
-    padding: 10px;
-    font-size: 25px;
-    text-decoration: none;
-    color: white;
-}
-
-.nav ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-}
-
-.nav li {
-    padding: 20px 10px;
+  padding-top: 50px;
 }
 
 .banner {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    text-align: center;
+  padding: 40px 15px;
+  text-align: center;
+	background: lightblue;
+	padding: 140px 0;
 }
 
-.links {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    background: linear-gradient(to bottom, rgba(0,0,0,0) 0, #000 67%);
+.profile-pic {
+	height: 160px;
+	border-radius:50%;
+	border: 8px solid white;
 }
 
-.links li {
-    font-size: 12px;
+.project-cell {
+	text-align: center;
 }
 
-.footer {
-    display: flex;
-    justify-content: flex-end;
-    background: black;
+.project-thumbnail {
+	margin-top: 80px;
+	text-decoration: none;
+	width:240px;
+	height:240px;
+	border: 1px solid lightgrey;
 }
 
-.footer ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: row;
+.project-title {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 188px;
 }
 
-.footer ul li {
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+.bla {
+	display: inline-block;
+}
+
+.bla .project-title {
+	opacity: 0;
+	transition: all 0.2s ease-in-out;
+}
+
+.bla:hover .project-title {
+	opacity: 1;
 }
