@@ -68,15 +68,26 @@ body {
 .socialMedia i {
 	color: #fff;
 	display: inline-block; 
-	font-size: 23px;
+	font-size: 34px;
 	font-weight: 500;
-	width: 42px;
-	height: 40px;
-	background: #82CFFD;
+	width: 60px;
+	height: 60px;
 	border-radius: 100%;
 	text-align: center;
-	padding-top: 8px;
+	padding-top: 13px;
 	margin: 0 5px;
+}
+
+.fa-github {
+	background: #222;
+}
+
+.fa-linkedin {
+	background: #0077B5;
+}
+
+.fa-facebook {
+	background: #3b5998;
 }
 
 .socialMedia i:hover {
