@@ -14,8 +14,7 @@ body {
 
 .portrait {
 	height: 160px;
-	border-radius: 50%;
-	border: 2px solid #000;
+	border-radius: 100%;
 }
 
 .thumbnailWrapper {
@@ -36,14 +35,14 @@ body {
 }
 
 .thumbnailWrapper:hover img {
-	opacity: 0.4;
+	opacity: 0.2;
 }
 
 .projectName {
 	position: absolute;
 	left: 0;
 	right: 0;
-	top: 188px;
+	top: 100px;
 }
 
 .thumbnailWrapper .projectName {
@@ -63,34 +62,49 @@ body {
 
 .socialMedia {
 	font-size: 0; 
+	height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .socialMedia i {
+	transition: all 0.4s ease-in-out;
 	color: #fff;
-	display: inline-block; 
 	font-size: 34px;
 	font-weight: 500;
 	width: 60px;
 	height: 60px;
 	border-radius: 100%;
-	text-align: center;
 	padding-top: 13px;
-	margin: 0 5px;
+	margin: auto 5px;
 }
 
-.fa-github {
-	background: #222;
-}
-
-.fa-linkedin {
-	background: #0077B5;
+.socialMedia i:hover {
+	background: none;
 }
 
 .fa-facebook {
 	background: #3b5998;
 }
 
-.socialMedia i:hover {
-	color: #00ffff;
+.fa-linkedin {
+	background: #0077B5;
+}
+
+.fa-github {
+	background: #222;
+}
+
+.fa-facebook:hover {
+	color: #3b5998;
+}
+
+.fa-linkedin:hover {
+	color: #0077B5;
+}
+
+.fa-github:hover {
+	color: #222;
 }
 
