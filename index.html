@@ -40,34 +40,36 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
+            <li><a href="#home">Home</a></li>
+						<li><a href="#portfolio">Projects</a></li>
+            <li><a href="#aboutme">About</a></li>
           </ul>
         </div>
       </div>
     </nav>
 		
 		<div class="bannerContainer">
-			<div class="banner">
-				<img src="img/me.jpg" class="portrait">
+			<div class="banner" id="home">
+				<img src="img/mitch.jpg" class="portrait">
 				<h2>Mitchell Revers</h2>
-				<p class="lead">Software Engineer</p>
+				<p style="font-size:20px; font-weight: 100;">Software Engineer</p>
 				<div class="socialMedia">
 					<a href="https://github.com/mrevers95"><i class="fa fa-facebook"></i></a>
 					<a href="https://www.linkedin.com/in/mitchell-revers-b6989a69/"><i class="fa fa-linkedin"></i></a>
 					<a href="https://github.com/mrevers95"><i class="fa fa-github"></i></a>
-
 				</div>
 			</div>
 		</div>
     		
-    <div class="container-fluid thumbnailContainer">
+    <div class="container-fluid thumbnailContainer" id="portfolio">
     	<div class="row">
 				<div class="col-md-4">
 					<a href="https://github.com/mrevers95/mazeworld">
 						<div class="thumbnailWrapper">
 							<img src="img/mazeworld.png">
-							<p class="projectName">Mazeworld</p>
+							<div class="projectName">
+								<p>Mazeworld</p>
+							</div>
 						</div>
 					</a>
 				</div>
@@ -75,7 +77,9 @@
 					<a href="https://github.com/mrevers95">
 						<div class="thumbnailWrapper">
 							<img src="img/robotmotion.png">
-							<p class="projectName">Robot Motion</p>
+							<div class="projectName">
+								<p>Robot Motion</p>
+							</div>
 						</div>
 					</a>
 				</div>
@@ -83,29 +87,57 @@
 					<a href="https://github.com/mrevers95/crawler">
 						<div class="thumbnailWrapper">
 							<img src="img/tse.png">
-							<p class="projectName">Tiny Search Engine</p>
+							<div class="projectName">
+								<p>Tiny Search Engine</p>
+							</div>
 						</div>
 					</a>
 				</div>	
 			</div>
 			<div class="row">
 				<div class="col-md-4">
-					<a href="https://github.com/mrevers95/calendar">
+					<a href="https://github.com/mrevers95/spellchecker">
 						<div class="thumbnailWrapper">
-							<img src="img/calendar.png">
-							<p class="projectName">Calendar</p>
+							<img src="img/spellchecker.png">
+							<div class="projectName">
+								<p>Spell Checker</p>
+							</div>
 						</div>
 					</a>
 				</div>
 				<div class="col-md-4">
-					<a href="https://github.com/mrevers95/spellchecker">
+					<a href="https://github.com/mrevers95/calendar">
 						<div class="thumbnailWrapper">
-							<img src="img/spellchecker.png">
-							<p class="projectName">Spell Checker</p>
+							<img src="img/calendar.png">
+							<div class="projectName">
+								<p>Popup Calendar</p>
+							</div>
 						</div>
 					</a>
 				</div>
 			</div> 
+		</div>
+		
+		<div id="aboutme">
+			<h2 class="aboutmeTitle">About</h2>
+			<div class="container" style="padding: 20px;">
+				<div class="row">
+					<div class="col-sm-8 col-sm-offset-2">
+						<p style="font-size: 16px; text-align: left;">I grew up in Weston, MA and am a current student at Dartmouth College in Hanover, NH. My major is Computer Science. I really like new technology and spend way too much of my free time coding. Although most of my professional experience in coding has been front end and UI experience, I am highly proficient in Java and have plenty of experience working with databases and similar concepts. Previous companies include the following.</p>
+					</div>
+				</div>
+				<div class="row" style="padding-top: 30px;">
+					<div class="col-xs-4">
+						<img src="img/jebbit.png" class="companyLogo">
+					</div>
+					<div class="col-xs-4">
+						<img src="img/tripadvisor.png" class="companyLogo">
+					</div>
+					<div class="col-xs-4">
+						<img src="img/sessionm.png" class="companyLogo">
+					</div>
+				</div>
+			</div>
 		</div>
 			
 		<div class="modal"><!-- Place at bottom of page --></div>
