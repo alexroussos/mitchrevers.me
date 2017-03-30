@@ -1,5 +1,5 @@
 body {
-  padding-top: 50px;
+	background: url('img/grey-cement.jpg');
 }
 
 a {
@@ -10,14 +10,9 @@ a:hover {
 	color: black;
 }
 
-.bannerContainer {
-	background: #82CFFD;
-}
-
 .banner {
   text-align: center;
 	padding-top: 80px;
-	background: linear-gradient(transparent, #fff) left repeat;
 }
 
 .portrait {
