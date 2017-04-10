@@ -125,7 +125,7 @@ body {
 	cursor: pointer;
 }
 
-@media screen and (max-width: 870px) {
+@media screen and (max-device-width: 870px) {
 	
 	.navbar {
 		text-align: center;
